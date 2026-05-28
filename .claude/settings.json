@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/cloud/Videos/francisca status)",
+      "Bash(git -C /home/cloud/Videos/francisca diff)",
+      "Bash(git -C /home/cloud/Videos/francisca log --oneline -5)",
+      "Bash(git -C /home/cloud/Videos/francisca log --oneline -3)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git -C /home/cloud/Videos/francisca push origin main)"
+    ]
+  }
+}
