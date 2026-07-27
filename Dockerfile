@@ -2,7 +2,7 @@ FROM nginx:alpine
 
 WORKDIR /app
 
-COPY . /user/share/nginx/html
+COPY . /usr/share/nginx/html
 
 COPY . .
 
