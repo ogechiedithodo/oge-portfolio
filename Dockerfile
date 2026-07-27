@@ -4,12 +4,10 @@ WORKDIR /app
 
 COPY . /user/share/nginx/html
 
-RUN npm install
-
 COPY . .
 
-EXPOSE 3000
+EXPOSE 80
 
-CMD ["npm", "start"]
+CMD ["nginx", "-g", "daemon off;"]
 
 
