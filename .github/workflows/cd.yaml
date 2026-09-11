@@ -27,6 +27,6 @@ jobs:
 
             echo "Pulling latest code..."
 
-            git pull staging
+            git pull origin staging
 
             echo "Deployment completed successfully."
