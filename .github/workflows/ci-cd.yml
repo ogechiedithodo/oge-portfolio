@@ -3,11 +3,11 @@ name: CI Security Docker CD
 on:
   push:
     branches:
-      - main
+      - staging
 
   pull_request:
     branches:
-      - main
+      - staging
 
 permissions:
   contents: read
